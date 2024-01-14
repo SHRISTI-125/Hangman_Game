@@ -22,7 +22,7 @@ while play=="True":
         guessWord = guessWord.upper()
         
         if(guessWord in word):
-            print("present")
+            #print("present")
             for i in range(0,l1):
                 if(word[i]==guessWord):
                     print(guessWord)
